@@ -41,3 +41,22 @@ main{
     width: 269px;
     height: 471px;
 }
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.522);
+    box-sizing: border-box; /*para o botão não se mexer quando o hover for ativado*/
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.799);
+    transform: translate(-3px, -3px); /*3 px para esquerda e 3px para cima, para dar sensação de movimento*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.618);
+    transition: transform 0.5s;/*para  a movimentação ficar suave*/
+}
